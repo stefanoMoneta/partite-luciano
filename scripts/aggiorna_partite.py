@@ -42,6 +42,7 @@ TEAM_NAMES = {
     "Virtus Entella": "Entella",
 }
 
+DAY_OFFSET = 7
 
 def italian_team_name(name):
     return TEAM_NAMES.get(name, name)
@@ -161,7 +162,7 @@ def main():
 
     matches = []
 
-    for offset in range(4):
+    for offset in range(DAY_OFFSET):
         day = start_date + timedelta(days=offset)
 
         for league_code, competition in LEAGUES.items():
