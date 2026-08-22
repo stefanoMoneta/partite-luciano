@@ -157,6 +157,14 @@ async function loadMatches() {
 
 loadMatches();
 
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") {
+    loadMatches();
+  }
+});
+
+setInterval(loadMatches, 60 * 60 * 1000);
+
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("service-worker.js");
