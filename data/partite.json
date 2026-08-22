@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-22T21:18:33+02:00",
+  "updatedAt": "2026-08-22T22:04:46+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-22",
@@ -50,7 +50,7 @@
       "home": "Genoa",
       "away": "Napoli",
       "competition": "Serie A",
-      "status": "STATUS_IN_PROGRESS"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874747",
@@ -59,7 +59,7 @@
       "home": "Parma",
       "away": "Cagliari",
       "competition": "Serie A",
-      "status": "STATUS_IN_PROGRESS"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899659",
@@ -68,7 +68,7 @@
       "home": "Avellino",
       "away": "Arezzo",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401899658",
@@ -77,7 +77,7 @@
       "home": "Benevento",
       "away": "Modena",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401899655",
@@ -86,7 +86,7 @@
       "home": "Empoli",
       "away": "Cremonese",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401874930",
