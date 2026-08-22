@@ -54,7 +54,7 @@ body {
   align-items: center;
 
   /* Tutti i box hanno almeno l'altezza necessaria per due righe. */
-  min-height: 104px;
+  min-height: 110px;
 
   background: white;
   border: 1px solid #d8d8d8;
@@ -72,9 +72,9 @@ body {
 }
 
 .match-teams {
-  font-size: 1.55rem;
+  font-size: 2.02rem;
   font-weight: 750;
-  line-height: 1.18;
+  line-height: 1.15;
 }
 
 /* Evidenzia le partite del Pisa. */
@@ -131,7 +131,7 @@ footer {
     gap: 10px;
 
     /* Anche su telefono i box a una e due righe restano uniformi. */
-    min-height: 100px;
+    min-height: 105px;
 
     padding: 15px 12px;
   }
@@ -141,8 +141,8 @@ footer {
   }
 
   .match-teams {
-    font-size: 1.48rem;
-    line-height: 1.18;
+    font-size: 1.92rem;
+    line-height: 1.15;
   }
 
   .match.pisa {
