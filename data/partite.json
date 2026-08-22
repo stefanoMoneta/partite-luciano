@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-22T17:19:02+02:00",
+  "updatedAt": "2026-08-22T19:00:34+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-22",
@@ -14,7 +14,7 @@
       "home": "Inter",
       "away": "Monza",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874745",
@@ -23,7 +23,7 @@
       "home": "Udinese",
       "away": "Como",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899657",
@@ -39,7 +39,7 @@
       "date": "2026-08-22",
       "time": "19:00",
       "home": "Sudtirol",
-      "away": "Virtus Entella",
+      "away": "Entella",
       "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     },
