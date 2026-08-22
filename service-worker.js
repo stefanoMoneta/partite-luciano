@@ -1,4 +1,4 @@
-const CACHE_NAME = "partite-luciano-v2";
+const CACHE_NAME = "partite-luciano-v4";
 
 const APP_SHELL = [
   "./",
@@ -31,19 +31,23 @@ self.addEventListener("activate", event => {
 });
 
 self.addEventListener("fetch", event => {
+  if (event.request.method !== "GET") return;
+
   const url = new URL(event.request.url);
 
-  // Il calendario deve essere il più fresco possibile.
-  if (url.pathname.endsWith("/data/partite.json")) {
+  if (url.origin === self.location.origin) {
     event.respondWith(
-      fetch(event.request).catch(() => caches.match(event.request))
+      fetch(event.request)
+        .then(response => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then(cache => {
+              cache.put(event.request, copy);
+            });
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
     );
-    return;
   }
-
-  event.respondWith(
-    caches.match(event.request).then(
-      cached => cached || fetch(event.request)
-    )
-  );
 });
