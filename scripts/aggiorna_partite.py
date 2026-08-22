@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-import sys
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -13,13 +12,38 @@ from zoneinfo import ZoneInfo
 ROME = ZoneInfo("Europe/Rome")
 OUTPUT_FILE = Path(__file__).resolve().parents[1] / "data" / "partite.json"
 
-# ESPN usa questi identificatori per i due campionati italiani.
 LEAGUES = {
     "ita.1": "Serie A",
     "ita.2": "Serie B",
 }
 
 BASE_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer"
+
+# Nomi mostrati nell'app. La mappa può essere estesa facilmente
+# se ESPN dovesse usare altre denominazioni internazionali.
+TEAM_NAMES = {
+    "Inter Milan": "Inter",
+    "Internazionale": "Inter",
+    "AS Roma": "Roma",
+    "AC Milan": "Milan",
+    "Hellas Verona": "Verona",
+    "Juventus Turin": "Juventus",
+    "SSC Napoli": "Napoli",
+    "SS Lazio": "Lazio",
+    "AC Monza": "Monza",
+    "US Lecce": "Lecce",
+    "US Cremonese": "Cremonese",
+    "UC Sampdoria": "Sampdoria",
+    "Spezia Calcio": "Spezia",
+    "FC Südtirol": "Sudtirol",
+    "Südtirol": "Sudtirol",
+    "Pisa SC": "Pisa",
+    "Pisa Sporting Club": "Pisa",
+}
+
+
+def italian_team_name(name):
+    return TEAM_NAMES.get(name, name)
 
 
 def fetch_scoreboard(league_code, day):
@@ -90,6 +114,7 @@ def normalize_event(event, competition):
             or team.get("displayName")
             or team.get("name")
         )
+        name = italian_team_name(name)
 
         if competitor.get("homeAway") == "home":
             home = name
@@ -108,7 +133,6 @@ def normalize_event(event, competition):
             f"Evento ESPN {event.get('id', '?')} senza data"
         )
 
-    # Esempio: 2026-08-23T16:30Z
     fixture_dt = datetime.fromisoformat(
         event_date.replace("Z", "+00:00")
     ).astimezone(ROME)
@@ -136,8 +160,6 @@ def main():
 
     matches = []
 
-    # Interroga separatamente ciascun giorno: in questo modo otteniamo
-    # esattamente la finestra "oggi + 3 giorni".
     for offset in range(4):
         day = start_date + timedelta(days=offset)
 
@@ -147,12 +169,9 @@ def main():
             for event in events:
                 normalized = normalize_event(event, competition)
 
-                # Protezione ulteriore nel caso l'endpoint restituisca
-                # eventi fuori dalla data richiesta.
                 if start_date.isoformat() <= normalized["date"] <= end_date.isoformat():
                     matches.append(normalized)
 
-    # Rimuove eventuali duplicati e ordina Serie A e B insieme.
     unique = {match["id"]: match for match in matches}
     matches = sorted(
         unique.values(),
@@ -177,8 +196,6 @@ def main():
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-    # Scrittura atomica: se qualcosa fallisce prima di questo punto,
-    # resta disponibile l'ultimo JSON valido.
     temporary = OUTPUT_FILE.with_suffix(".json.tmp")
     temporary.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + "\n",

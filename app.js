@@ -59,6 +59,10 @@ function escapeHtml(text) {
     .replaceAll("'", "&#039;");
 }
 
+function isPisaMatch(match) {
+  return match.home === "Pisa" || match.away === "Pisa";
+}
+
 async function loadMatches() {
   const container = document.getElementById("matches");
   const update = document.getElementById("last-update");
@@ -78,29 +82,18 @@ async function loadMatches() {
     const todayKey = localDateKey(today);
     const lastDayKey = localDateKey(lastDay);
 
-    // Mostra esclusivamente oggi e i tre giorni successivi.
-    // Le partite già disputate oggi restano visibili: lo scopo dell'app
-    // è consultare date e orari, non mostrare risultati live.
     const visibleMatches = data.matches
       .filter(match => match.date >= todayKey && match.date <= lastDayKey)
       .sort((a, b) =>
         `${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`)
       );
 
-    if (data.exampleData) {
-      container.innerHTML = `
-        <div class="example-warning">
-          Versione di prova: le partite mostrate sono dati di esempio.
-        </div>
-      `;
-    } else {
-      container.innerHTML = "";
-    }
+    container.innerHTML = "";
 
     if (!visibleMatches.length) {
-      container.innerHTML += `
+      container.innerHTML = `
         <div class="empty">
-          Nessuna partita di Serie A o Serie B nei prossimi quattro giorni.
+          Nessuna partita nei prossimi quattro giorni.
         </div>
       `;
     } else {
@@ -123,13 +116,14 @@ async function loadMatches() {
           const article = document.createElement("article");
           article.className = "match";
 
+          if (isPisaMatch(match)) {
+            article.classList.add("pisa");
+          }
+
           article.innerHTML = `
             <div class="match-time">${escapeHtml(match.time)}</div>
             <div class="match-teams">
               ${escapeHtml(match.home)} – ${escapeHtml(match.away)}
-            </div>
-            <div class="league" aria-label="${escapeHtml(match.competition)}">
-              ${match.competition === "Serie A" ? "A" : "B"}
             </div>
           `;
 
