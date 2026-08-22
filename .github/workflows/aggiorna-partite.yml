@@ -4,10 +4,11 @@ on:
   schedule:
     # GitHub usa UTC. Gli orari non devono essere precisi al minuto:
     # lo scopo è aggiornare il calendario più volte durante la giornata.
-    - cron: "17 5 * * *"
-    - cron: "17 10 * * *"
-    - cron: "17 15 * * *"
-    - cron: "17 20 * * *"
+    - cron: "0 23 * * *"
+    - cron: "0 7 * * *"
+    - cron: "0 11 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 19 * * *"
 
   # Permette anche l'avvio manuale dalla scheda Actions.
   workflow_dispatch:
