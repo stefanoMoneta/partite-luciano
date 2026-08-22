@@ -37,7 +37,9 @@ function dayHeading(key) {
     label = IT_DAYS[date.getDay()].toUpperCase();
   }
 
-  const fullDate = `${IT_DAYS[date.getDay()]} ${date.getDate()} ${IT_MONTHS[date.getMonth()]}`;
+  const fullDate =
+    `${IT_DAYS[date.getDay()]} ${date.getDate()} ${IT_MONTHS[date.getMonth()]}`;
+
   return { label, fullDate };
 }
 
@@ -67,12 +69,23 @@ async function loadMatches() {
 
     const data = await response.json();
 
-    const now = new Date();
-    const todayKey = localDateKey(now);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
 
-    const upcoming = data.matches
-      .filter(match => match.date >= todayKey)
-      .sort((a, b) => `${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`));
+    const lastDay = new Date(today);
+    lastDay.setDate(today.getDate() + 3);
+
+    const todayKey = localDateKey(today);
+    const lastDayKey = localDateKey(lastDay);
+
+    // Mostra esclusivamente oggi e i tre giorni successivi.
+    // Le partite già disputate oggi restano visibili: lo scopo dell'app
+    // è consultare date e orari, non mostrare risultati live.
+    const visibleMatches = data.matches
+      .filter(match => match.date >= todayKey && match.date <= lastDayKey)
+      .sort((a, b) =>
+        `${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`)
+      );
 
     if (data.exampleData) {
       container.innerHTML = `
@@ -84,59 +97,70 @@ async function loadMatches() {
       container.innerHTML = "";
     }
 
-    if (!upcoming.length) {
-      container.innerHTML += `<div class="empty">Nessuna partita in programma.</div>`;
-      return;
-    }
-
-    const grouped = groupByDate(upcoming);
-
-    for (const [date, matches] of Object.entries(grouped)) {
-      const { label, fullDate } = dayHeading(date);
-
-      const section = document.createElement("section");
-      section.className = "day";
-
-      section.innerHTML = `
-        <div class="day-header">
-          <span class="day-label">${escapeHtml(label)}</span>
-          <span class="day-date">${escapeHtml(fullDate)}</span>
+    if (!visibleMatches.length) {
+      container.innerHTML += `
+        <div class="empty">
+          Nessuna partita di Serie A o Serie B nei prossimi quattro giorni.
         </div>
       `;
+    } else {
+      const grouped = groupByDate(visibleMatches);
 
-      for (const match of matches) {
-        const article = document.createElement("article");
-        article.className = "match";
-        article.innerHTML = `
-          <div class="match-time">${escapeHtml(match.time)}</div>
-          <div class="match-teams">
-            ${escapeHtml(match.home)} – ${escapeHtml(match.away)}
-          </div>
-          <div class="league" aria-label="${escapeHtml(match.competition)}">
-            ${match.competition === "Serie A" ? "A" : "B"}
+      for (const [date, matches] of Object.entries(grouped)) {
+        const { label, fullDate } = dayHeading(date);
+
+        const section = document.createElement("section");
+        section.className = "day";
+
+        section.innerHTML = `
+          <div class="day-header">
+            <span class="day-label">${escapeHtml(label)}</span>
+            <span class="day-date">${escapeHtml(fullDate)}</span>
           </div>
         `;
-        section.appendChild(article);
-      }
 
-      container.appendChild(section);
+        for (const match of matches) {
+          const article = document.createElement("article");
+          article.className = "match";
+
+          article.innerHTML = `
+            <div class="match-time">${escapeHtml(match.time)}</div>
+            <div class="match-teams">
+              ${escapeHtml(match.home)} – ${escapeHtml(match.away)}
+            </div>
+            <div class="league" aria-label="${escapeHtml(match.competition)}">
+              ${match.competition === "Serie A" ? "A" : "B"}
+            </div>
+          `;
+
+          section.appendChild(article);
+        }
+
+        container.appendChild(section);
+      }
     }
 
     if (data.updatedAt) {
       const updatedAt = new Date(data.updatedAt);
       update.textContent =
-        `Aggiornato ${updatedAt.toLocaleDateString("it-IT")} alle ${updatedAt.toLocaleTimeString("it-IT", {hour: "2-digit", minute: "2-digit"})}`;
+        `Aggiornato ${updatedAt.toLocaleDateString("it-IT")} alle ` +
+        `${updatedAt.toLocaleTimeString("it-IT", {
+          hour: "2-digit",
+          minute: "2-digit"
+        })}`;
     } else {
       update.textContent = "";
     }
   } catch (error) {
     console.error(error);
+
     container.innerHTML = `
       <div class="error">
         Non riesco a caricare le partite.<br>
         Riprova tra poco.
       </div>
     `;
+
     update.textContent = "";
   }
 }

@@ -1,4 +1,5 @@
-const CACHE_NAME = "partite-luciano-v1";
+const CACHE_NAME = "partite-luciano-v2";
+
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -10,14 +11,20 @@ const APP_SHELL = [
 ];
 
 self.addEventListener("install", event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)));
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))
+  );
   self.skipWaiting();
 });
 
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))
+      Promise.all(
+        keys
+          .filter(key => key !== CACHE_NAME)
+          .map(key => caches.delete(key))
+      )
     )
   );
   self.clients.claim();
@@ -26,7 +33,7 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   const url = new URL(event.request.url);
 
-  // Il file delle partite deve essere il più fresco possibile.
+  // Il calendario deve essere il più fresco possibile.
   if (url.pathname.endsWith("/data/partite.json")) {
     event.respondWith(
       fetch(event.request).catch(() => caches.match(event.request))
@@ -35,6 +42,8 @@ self.addEventListener("fetch", event => {
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
+    caches.match(event.request).then(
+      cached => cached || fetch(event.request)
+    )
   );
 });

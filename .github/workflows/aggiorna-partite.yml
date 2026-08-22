@@ -1,0 +1,50 @@
+name: Aggiorna partite
+
+on:
+  schedule:
+    # Gli orari cron di GitHub sono in UTC.
+    # In Italia corrispondono circa a mattina, pranzo, pomeriggio e sera.
+    - cron: "17 5 * * *"
+    - cron: "17 10 * * *"
+    - cron: "17 15 * * *"
+    - cron: "17 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-partite
+  cancel-in-progress: true
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scarica la repository
+        uses: actions/checkout@v4
+
+      - name: Configura Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scarica le partite
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python scripts/aggiorna_partite.py
+
+      - name: Salva i nuovi dati
+        run: |
+          if git diff --quiet -- data/partite.json; then
+            echo "Nessuna modifica ai dati."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/partite.json
+          git commit -m "Aggiorna calendario partite"
+          git push
