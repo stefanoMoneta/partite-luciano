@@ -1,4 +1,4 @@
-const CACHE_NAME = "partite-luciano-v8";
+const CACHE_NAME = "partite-luciano-v9";
 
 const APP_SHELL = [
   "./",
