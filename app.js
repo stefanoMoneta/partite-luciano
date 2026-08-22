@@ -76,14 +76,10 @@ async function loadMatches() {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    const lastDay = new Date(today);
-    lastDay.setDate(today.getDate() + 3);
-
     const todayKey = localDateKey(today);
-    const lastDayKey = localDateKey(lastDay);
 
     const visibleMatches = data.matches
-      .filter(match => match.date >= todayKey && match.date <= lastDayKey)
+      .filter(match => match.date >= todayKey)
       .sort((a, b) =>
         `${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`)
       );

@@ -158,7 +158,7 @@ def normalize_event(event, competition):
 def main():
     now = datetime.now(ROME)
     start_date = now.date()
-    end_date = start_date + timedelta(days=3)
+    end_date = start_date + timedelta(days=DAY_OFFSET - 1)
 
     matches = []
 
