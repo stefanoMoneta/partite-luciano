@@ -1,93 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-22T22:20:59+02:00",
+  "updatedAt": "2026-08-23T01:20:31+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-08-22",
-    "to": "2026-08-28"
+    "from": "2026-08-23",
+    "to": "2026-08-29"
   },
   "matches": [
-    {
-      "id": "espn-401874931",
-      "date": "2026-08-22",
-      "time": "18:30",
-      "home": "Inter",
-      "away": "Monza",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874745",
-      "date": "2026-08-22",
-      "time": "18:30",
-      "home": "Udinese",
-      "away": "Como",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899657",
-      "date": "2026-08-22",
-      "time": "19:00",
-      "home": "Carrarese",
-      "away": "Mantova",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899650",
-      "date": "2026-08-22",
-      "time": "19:00",
-      "home": "Sudtirol",
-      "away": "Entella",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874929",
-      "date": "2026-08-22",
-      "time": "20:45",
-      "home": "Genoa",
-      "away": "Napoli",
-      "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
-    },
-    {
-      "id": "espn-401874747",
-      "date": "2026-08-22",
-      "time": "20:45",
-      "home": "Parma",
-      "away": "Cagliari",
-      "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
-    },
-    {
-      "id": "espn-401899659",
-      "date": "2026-08-22",
-      "time": "21:00",
-      "home": "Avellino",
-      "away": "Arezzo",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
-    {
-      "id": "espn-401899658",
-      "date": "2026-08-22",
-      "time": "21:00",
-      "home": "Benevento",
-      "away": "Modena",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
-    {
-      "id": "espn-401899655",
-      "date": "2026-08-22",
-      "time": "21:00",
-      "home": "Empoli",
-      "away": "Cremonese",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
     {
       "id": "espn-401874930",
       "date": "2026-08-23",
@@ -194,6 +113,87 @@
       "home": "Milan",
       "away": "Venezia",
       "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874942",
+      "date": "2026-08-29",
+      "time": "18:30",
+      "home": "Fiorentina",
+      "away": "Frosinone",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874749",
+      "date": "2026-08-29",
+      "time": "18:30",
+      "home": "Monza",
+      "away": "Udinese",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874743",
+      "date": "2026-08-29",
+      "time": "18:30",
+      "home": "Sassuolo",
+      "away": "Torino",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899640",
+      "date": "2026-08-29",
+      "time": "19:00",
+      "home": "Entella",
+      "away": "Cesena",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899641",
+      "date": "2026-08-29",
+      "time": "19:00",
+      "home": "Sampdoria",
+      "away": "Juve Stabia",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874746",
+      "date": "2026-08-29",
+      "time": "20:45",
+      "home": "Juventus",
+      "away": "Parma",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899648",
+      "date": "2026-08-29",
+      "time": "21:00",
+      "home": "Ascoli",
+      "away": "Carrarese",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899647",
+      "date": "2026-08-29",
+      "time": "21:00",
+      "home": "Avellino",
+      "away": "Vicenza",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899643",
+      "date": "2026-08-29",
+      "time": "21:00",
+      "home": "Padova",
+      "away": "Verona",
+      "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     }
   ]
