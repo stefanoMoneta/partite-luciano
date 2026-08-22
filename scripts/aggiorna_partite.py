@@ -39,6 +39,7 @@ TEAM_NAMES = {
     "Südtirol": "Sudtirol",
     "Pisa SC": "Pisa",
     "Pisa Sporting Club": "Pisa",
+    "Virtus Entella": "Entella",
 }
 
 
