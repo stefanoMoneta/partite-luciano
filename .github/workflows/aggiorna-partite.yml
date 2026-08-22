@@ -2,12 +2,14 @@ name: Aggiorna partite
 
 on:
   schedule:
-    # Gli orari cron di GitHub sono in UTC.
-    # In Italia corrispondono circa a mattina, pranzo, pomeriggio e sera.
+    # GitHub usa UTC. Gli orari non devono essere precisi al minuto:
+    # lo scopo è aggiornare il calendario più volte durante la giornata.
     - cron: "17 5 * * *"
     - cron: "17 10 * * *"
     - cron: "17 15 * * *"
     - cron: "17 20 * * *"
+
+  # Permette anche l'avvio manuale dalla scheda Actions.
   workflow_dispatch:
 
 permissions:
@@ -23,16 +25,14 @@ jobs:
 
     steps:
       - name: Scarica la repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Configura Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Scarica le partite
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/aggiorna_partite.py
 
       - name: Salva i nuovi dati
