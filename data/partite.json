@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-22T19:00:34+02:00",
+  "updatedAt": "2026-08-22T21:18:33+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-22",
@@ -14,7 +14,7 @@
       "home": "Inter",
       "away": "Monza",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874745",
@@ -23,7 +23,7 @@
       "home": "Udinese",
       "away": "Como",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899657",
@@ -32,7 +32,7 @@
       "home": "Carrarese",
       "away": "Mantova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899650",
@@ -41,7 +41,7 @@
       "home": "Sudtirol",
       "away": "Entella",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874929",
@@ -50,7 +50,7 @@
       "home": "Genoa",
       "away": "Napoli",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_IN_PROGRESS"
     },
     {
       "id": "espn-401874747",
@@ -59,7 +59,7 @@
       "home": "Parma",
       "away": "Cagliari",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_IN_PROGRESS"
     },
     {
       "id": "espn-401899659",
@@ -68,7 +68,7 @@
       "home": "Avellino",
       "away": "Arezzo",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899658",
@@ -77,7 +77,7 @@
       "home": "Benevento",
       "away": "Modena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899655",
@@ -86,7 +86,7 @@
       "home": "Empoli",
       "away": "Cremonese",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874930",
