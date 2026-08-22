@@ -37,10 +37,20 @@ function dayHeading(key) {
     label = IT_DAYS[date.getDay()].toUpperCase();
   }
 
-  const fullDate =
-    `${IT_DAYS[date.getDay()]} ${date.getDate()} ${IT_MONTHS[date.getMonth()]}`;
+  let fullDate;
 
-  return { label, fullDate };
+  if (
+    localDateKey(date) === localDateKey(today) ||
+    localDateKey(date) === localDateKey(tomorrow)
+  ) {
+    fullDate =
+      `${IT_DAYS[date.getDay()]} ${date.getDate()} ${IT_MONTHS[date.getMonth()]}`;
+  } else {
+    fullDate =
+      `${date.getDate()} ${IT_MONTHS[date.getMonth()]}`;
+  }
+
+return { label, fullDate };
 }
 
 function groupByDate(matches) {
