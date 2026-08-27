@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-27T06:18:44+02:00",
+  "updatedAt": "2026-08-27T10:11:34+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-27",
@@ -185,6 +185,15 @@
       "home": "Atalanta",
       "away": "Bologna",
       "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899634",
+      "date": "2026-09-06",
+      "time": "15:00",
+      "home": "Juve Stabia",
+      "away": "Pisa",
+      "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     }
   ]
