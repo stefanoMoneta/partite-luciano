@@ -44,8 +44,22 @@ TEAM_NAMES = {
 
 DAY_OFFSET = 7
 
+FAVORITE_TEAM = "Pisa"
+MIN_FAVORITE_MATCHES = 2
+
+# Per evitare di cercare indefinitamente se il calendario
+# delle giornate future non è ancora stato pubblicato.
+MAX_FAVORITE_LOOKAHEAD = 60
+
 def italian_team_name(name):
     return TEAM_NAMES.get(name, name)
+
+
+def is_favorite_match(match):
+    return (
+        match["home"] == FAVORITE_TEAM
+        or match["away"] == FAVORITE_TEAM
+    )
 
 
 def fetch_scoreboard(league_code, day):
@@ -158,9 +172,17 @@ def normalize_event(event, competition):
 def main():
     now = datetime.now(ROME)
     start_date = now.date()
+
+    # DAY_OFFSET comprende anche oggi:
+    # 7 = oggi + i 6 giorni successivi
     end_date = start_date + timedelta(days=DAY_OFFSET - 1)
 
     matches = []
+
+    # ---------------------------------------------------------
+    # 1. Calendario normale: tutte le partite di A e B
+    #    nei prossimi DAY_OFFSET giorni
+    # ---------------------------------------------------------
 
     for offset in range(DAY_OFFSET):
         day = start_date + timedelta(days=offset)
@@ -171,10 +193,61 @@ def main():
             for event in events:
                 normalized = normalize_event(event, competition)
 
-                if start_date.isoformat() <= normalized["date"] <= end_date.isoformat():
+                if (
+                    start_date.isoformat() 
+                    <= normalized["date"] 
+                    <= end_date.isoformat()
+                ):
                     matches.append(normalized)
 
+    # ---------------------------------------------------------
+    # 2. Controlla quante partite del Pisa abbiamo già
+    # ---------------------------------------------------------
+
+    favorite_matches = [
+        match for match in matches
+        if is_favorite_match(match)
+    ]
+
+    # ---------------------------------------------------------
+    # 3. Se sono meno di due, cerca oltre la finestra standard.
+    #    Oltre i 7 giorni vengono aggiunte SOLO le partite Pisa.
+    # ---------------------------------------------------------
+
+    search_day = end_date + timedelta(days=1)
+
+    search_until = start_date + timedelta(
+        days=MAX_FAVORITE_LOOKAHEAD
+    )
+
+    while (
+        len(favorite_matches) < MIN_FAVORITE_MATCHES
+        and search_day <= search_until
+    ):
+
+        for league_code, competition in LEAGUES.items():
+            events = fetch_scoreboard(league_code, search_day)
+
+            for event in events:
+                normalized = normalize_event(event, competition)
+
+                if is_favorite_match(normalized):
+                    matches.append(normalized)
+                    favorite_matches.append(normalized)
+
+            # Se abbiamo già trovato le due partite,
+            # evitiamo richieste inutili all'altra categoria.
+            if len(favorite_matches) >= MIN_FAVORITE_MATCHES:
+                break
+
+        search_day += timedelta(days=1)
+
+    # ---------------------------------------------------------
+    # 4. Elimina eventuali duplicati e ordina tutto
+    # ---------------------------------------------------------
+
     unique = {match["id"]: match for match in matches}
+
     matches = sorted(
         unique.values(),
         key=lambda match: (
@@ -200,15 +273,32 @@ def main():
 
     temporary = OUTPUT_FILE.with_suffix(".json.tmp")
     temporary.write_text(
-        json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(
+            output, 
+            ensure_ascii=False, 
+            indent=2
+        ) + "\n",
         encoding="utf-8",
     )
+
     temporary.replace(OUTPUT_FILE)
 
     print(
-        f"Aggiornate {len(matches)} partite "
-        f"dal {start_date.isoformat()} al {end_date.isoformat()}."
+        f"Aggiornate {len(matches)} partite. "
+        f"Finestra standard: "
+        f"{start_date.isoformat()} - {end_date.isoformat()}."
     )
+
+    if favorite_matches:
+        print(
+            f"Partite del Pisa incluse: "
+            f"{len(favorite_matches)}"
+        )
+    else:
+        print(
+            "Nessuna partita futura del Pisa trovata "
+            "nel calendario disponibile."
+        )
 
     for match in matches:
         print(
