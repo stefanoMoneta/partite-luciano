@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-28T21:20:42+02:00",
+  "updatedAt": "2026-08-28T23:20:04+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-28",
@@ -14,7 +14,7 @@
       "home": "Cremonese",
       "away": "Modena",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874758",
@@ -23,7 +23,7 @@
       "home": "Milan",
       "away": "Venezia",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874942",
