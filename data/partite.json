@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-29T20:07:33+02:00",
+  "updatedAt": "2026-08-29T23:28:34+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-29",
@@ -14,7 +14,7 @@
       "home": "Fiorentina",
       "away": "Frosinone",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874749",
@@ -23,7 +23,7 @@
       "home": "Monza",
       "away": "Udinese",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874743",
@@ -32,7 +32,7 @@
       "home": "Sassuolo",
       "away": "Torino",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899640",
@@ -41,7 +41,7 @@
       "home": "Entella",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899641",
@@ -50,7 +50,7 @@
       "home": "Sampdoria",
       "away": "Juve Stabia",
       "competition": "Serie B",
-      "status": "STATUS_HALFTIME"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874746",
@@ -59,7 +59,7 @@
       "home": "Juventus",
       "away": "Parma",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899648",
@@ -68,7 +68,7 @@
       "home": "Ascoli",
       "away": "Carrarese",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899647",
@@ -77,7 +77,7 @@
       "home": "Avellino",
       "away": "Vicenza",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899643",
@@ -86,7 +86,7 @@
       "home": "Padova",
       "away": "Verona",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874755",
