@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-29T17:32:31+02:00",
+  "updatedAt": "2026-08-29T20:07:33+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-29",
@@ -14,7 +14,7 @@
       "home": "Fiorentina",
       "away": "Frosinone",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874749",
@@ -23,7 +23,7 @@
       "home": "Monza",
       "away": "Udinese",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874743",
@@ -32,7 +32,7 @@
       "home": "Sassuolo",
       "away": "Torino",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899640",
@@ -41,7 +41,7 @@
       "home": "Entella",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899641",
@@ -50,7 +50,7 @@
       "home": "Sampdoria",
       "away": "Juve Stabia",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401874746",
