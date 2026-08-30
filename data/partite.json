@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-30T17:15:52+02:00",
+  "updatedAt": "2026-08-30T20:22:00+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-30",
@@ -14,7 +14,7 @@
       "home": "Napoli",
       "away": "Como",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899649",
@@ -23,7 +23,7 @@
       "home": "Arezzo",
       "away": "Palermo",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899644",
@@ -32,7 +32,7 @@
       "home": "Mantova",
       "away": "Empoli",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874938",
