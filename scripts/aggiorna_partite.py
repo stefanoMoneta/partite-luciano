@@ -15,6 +15,7 @@ OUTPUT_FILE = Path(__file__).resolve().parents[1] / "data" / "partite.json"
 LEAGUES = {
     "ita.1": "Serie A",
     "ita.2": "Serie B",
+    "ita.coppa_italia": "Coppa Italia",
 }
 
 BASE_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer"

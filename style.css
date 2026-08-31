@@ -79,6 +79,18 @@ body {
   color: #111;
 }
 
+.match-info {
+  min-width: 0;
+}
+
+.match-competition {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #666;
+  letter-spacing: 0.06em;
+}
+
 /* Evidenzia le partite del Pisa. */
 .match.pisa {
   background: #dceeff;

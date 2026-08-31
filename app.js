@@ -128,8 +128,17 @@ async function loadMatches() {
 
           article.innerHTML = `
             <div class="match-time">${escapeHtml(match.time)}</div>
-            <div class="match-teams">
-              ${escapeHtml(match.home)} – ${escapeHtml(match.away)}
+
+            <div class="match-info">
+              <div class="match-teams">
+                ${escapeHtml(match.home)} – ${escapeHtml(match.away)}
+              </div>
+
+              ${
+                match.competition === "Coppa Italia"
+                  ? `<div class="match-competition">COPPA ITALIA</div>`
+                  : ""
+              }
             </div>
           `;
 
