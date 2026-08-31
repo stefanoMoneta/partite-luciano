@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-31T22:34:54+02:00",
+  "updatedAt": "2026-08-31T23:20:47+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-31",
@@ -23,7 +23,61 @@
       "home": "Atalanta",
       "away": "Bologna",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
+    },
+    {
+      "id": "espn-401911808",
+      "date": "2026-09-01",
+      "time": "18:00",
+      "home": "Parma",
+      "away": "Cremonese",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401909664",
+      "date": "2026-09-01",
+      "time": "21:00",
+      "home": "Torino",
+      "away": "Monza",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401911806",
+      "date": "2026-09-02",
+      "time": "15:00",
+      "home": "Sassuolo",
+      "away": "Frosinone",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401911531",
+      "date": "2026-09-02",
+      "time": "18:00",
+      "home": "Udinese",
+      "away": "Venezia",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401911809",
+      "date": "2026-09-03",
+      "time": "18:00",
+      "home": "Palermo",
+      "away": "Mantova",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401911655",
+      "date": "2026-09-03",
+      "time": "21:00",
+      "home": "Cagliari",
+      "away": "Verona",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
     },
     {
       "id": "espn-401874744",
