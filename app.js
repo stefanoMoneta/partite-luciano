@@ -185,7 +185,19 @@ document.addEventListener("visibilitychange", () => {
 setInterval(loadMatches, 60 * 60 * 1000);
 
 if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("service-worker.js");
+  window.addEventListener("load", async () => {
+    try {
+      const registration = await navigator.serviceWorker.register(
+        "service-worker.js",
+        {
+          updateViaCache: "none"
+        }
+      );
+
+      // Controlla immediatamente se esiste una nuova versione.
+      registration.update();
+    } catch (error) {
+      console.error("Errore service worker:", error);
+    }
   });
 }
