@@ -1,30 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-31T23:20:47+02:00",
+  "updatedAt": "2026-09-01T01:05:09+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-08-31",
-    "to": "2026-09-06"
+    "from": "2026-09-01",
+    "to": "2026-09-07"
   },
   "matches": [
-    {
-      "id": "espn-401874945",
-      "date": "2026-08-31",
-      "time": "18:30",
-      "home": "Lecce",
-      "away": "Roma",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874970",
-      "date": "2026-08-31",
-      "time": "20:45",
-      "home": "Atalanta",
-      "away": "Bologna",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401911808",
       "date": "2026-09-01",
@@ -229,6 +211,33 @@
       "time": "20:45",
       "home": "Juventus",
       "away": "Milan",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874943",
+      "date": "2026-09-07",
+      "time": "18:30",
+      "home": "Cagliari",
+      "away": "Lecce",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899632",
+      "date": "2026-09-07",
+      "time": "20:30",
+      "home": "Palermo",
+      "away": "Sampdoria",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874962",
+      "date": "2026-09-07",
+      "time": "20:45",
+      "home": "Udinese",
+      "away": "Lazio",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
