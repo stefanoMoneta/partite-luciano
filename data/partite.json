@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-31T19:56:54+02:00",
+  "updatedAt": "2026-08-31T22:34:54+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-08-31",
@@ -14,7 +14,7 @@
       "home": "Lecce",
       "away": "Roma",
       "competition": "Serie A",
-      "status": "STATUS_IN_PROGRESS"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874970",
@@ -23,7 +23,7 @@
       "home": "Atalanta",
       "away": "Bologna",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874744",
