@@ -1,75 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-08-30T23:48:31+02:00",
+  "updatedAt": "2026-08-31T03:06:52+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-08-30",
-    "to": "2026-09-05"
+    "from": "2026-08-31",
+    "to": "2026-09-06"
   },
   "matches": [
-    {
-      "id": "espn-401874755",
-      "date": "2026-08-30",
-      "time": "18:30",
-      "home": "Napoli",
-      "away": "Como",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899649",
-      "date": "2026-08-30",
-      "time": "19:00",
-      "home": "Arezzo",
-      "away": "Palermo",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899644",
-      "date": "2026-08-30",
-      "time": "19:00",
-      "home": "Mantova",
-      "away": "Empoli",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874938",
-      "date": "2026-08-30",
-      "time": "20:45",
-      "home": "Cagliari",
-      "away": "Inter",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874742",
-      "date": "2026-08-30",
-      "time": "20:45",
-      "home": "Lazio",
-      "away": "Genoa",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899646",
-      "date": "2026-08-30",
-      "time": "21:00",
-      "home": "Benevento",
-      "away": "Sudtirol",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899642",
-      "date": "2026-08-30",
-      "time": "21:00",
-      "home": "Pisa",
-      "away": "Catanzaro",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401874945",
       "date": "2026-08-31",
@@ -152,11 +89,101 @@
       "status": "STATUS_SCHEDULED"
     },
     {
+      "id": "espn-401899637",
+      "date": "2026-09-06",
+      "time": "15:00",
+      "home": "Cesena",
+      "away": "Mantova",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899630",
+      "date": "2026-09-06",
+      "time": "15:00",
+      "home": "Entella",
+      "away": "Vicenza",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874768",
+      "date": "2026-09-06",
+      "time": "15:00",
+      "home": "Frosinone",
+      "away": "Venezia",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
       "id": "espn-401899634",
       "date": "2026-09-06",
       "time": "15:00",
       "home": "Juve Stabia",
       "away": "Pisa",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899633",
+      "date": "2026-09-06",
+      "time": "15:00",
+      "home": "Modena",
+      "away": "Avellino",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874987",
+      "date": "2026-09-06",
+      "time": "15:00",
+      "home": "Parma",
+      "away": "Monza",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899635",
+      "date": "2026-09-06",
+      "time": "17:15",
+      "home": "Verona",
+      "away": "Arezzo",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874751",
+      "date": "2026-09-06",
+      "time": "18:00",
+      "home": "Bologna",
+      "away": "Sassuolo",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899636",
+      "date": "2026-09-06",
+      "time": "19:30",
+      "home": "Cremonese",
+      "away": "Padova",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874954",
+      "date": "2026-09-06",
+      "time": "20:45",
+      "home": "Juventus",
+      "away": "Milan",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899621",
+      "date": "2026-09-11",
+      "time": "21:00",
+      "home": "Pisa",
+      "away": "Entella",
       "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     }
