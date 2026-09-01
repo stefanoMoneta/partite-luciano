@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-01T20:06:00+02:00",
+  "updatedAt": "2026-09-01T23:32:06+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-01",
@@ -23,7 +23,7 @@
       "home": "Torino",
       "away": "Monza",
       "competition": "Coppa Italia",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401911806",
