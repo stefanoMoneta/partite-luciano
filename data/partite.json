@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-02T17:01:01+02:00",
+  "updatedAt": "2026-09-02T20:20:26+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-02",
@@ -14,7 +14,7 @@
       "home": "Sassuolo",
       "away": "Frosinone",
       "competition": "Coppa Italia",
-      "status": "STATUS_SHOOTOUT"
+      "status": "STATUS_FINAL_PEN"
     },
     {
       "id": "espn-401911531",
@@ -23,7 +23,7 @@
       "home": "Udinese",
       "away": "Venezia",
       "competition": "Coppa Italia",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401911809",
