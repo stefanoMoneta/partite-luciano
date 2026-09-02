@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-02T14:02:02+02:00",
+  "updatedAt": "2026-09-02T17:01:01+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-02",
@@ -14,7 +14,7 @@
       "home": "Sassuolo",
       "away": "Frosinone",
       "competition": "Coppa Italia",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SHOOTOUT"
     },
     {
       "id": "espn-401911531",
