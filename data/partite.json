@@ -1,30 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-01T23:32:06+02:00",
+  "updatedAt": "2026-09-02T02:50:59+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-09-01",
-    "to": "2026-09-07"
+    "from": "2026-09-02",
+    "to": "2026-09-08"
   },
   "matches": [
-    {
-      "id": "espn-401911808",
-      "date": "2026-09-01",
-      "time": "18:00",
-      "home": "Parma",
-      "away": "Cremonese",
-      "competition": "Coppa Italia",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401909664",
-      "date": "2026-09-01",
-      "time": "21:00",
-      "home": "Torino",
-      "away": "Monza",
-      "competition": "Coppa Italia",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401911806",
       "date": "2026-09-02",
