@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-03T20:17:03+02:00",
+  "updatedAt": "2026-09-03T23:32:18+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-03",
@@ -23,7 +23,7 @@
       "home": "Cagliari",
       "away": "Verona",
       "competition": "Coppa Italia",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874744",
