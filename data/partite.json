@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-04T19:58:54+02:00",
+  "updatedAt": "2026-09-04T23:10:20+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-04",
@@ -14,7 +14,7 @@
       "home": "Genoa",
       "away": "Como",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874939",
