@@ -1,21 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-04T23:10:20+02:00",
+  "updatedAt": "2026-09-05T02:38:09+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-09-04",
-    "to": "2026-09-10"
+    "from": "2026-09-05",
+    "to": "2026-09-11"
   },
   "matches": [
-    {
-      "id": "espn-401874744",
-      "date": "2026-09-04",
-      "time": "20:45",
-      "home": "Genoa",
-      "away": "Como",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401874939",
       "date": "2026-09-05",
@@ -185,6 +176,33 @@
       "home": "Udinese",
       "away": "Lazio",
       "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899625",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "home": "Empoli",
+      "away": "Arezzo",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874759",
+      "date": "2026-09-11",
+      "time": "20:45",
+      "home": "Venezia",
+      "away": "Fiorentina",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899628",
+      "date": "2026-09-11",
+      "time": "21:00",
+      "home": "Benevento",
+      "away": "Verona",
+      "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     },
     {
