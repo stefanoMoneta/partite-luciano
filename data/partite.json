@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-05T13:12:36+02:00",
+  "updatedAt": "2026-09-05T15:46:18+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-05",
@@ -14,7 +14,7 @@
       "home": "Fiorentina",
       "away": "Torino",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_IN_PROGRESS"
     },
     {
       "id": "espn-401899631",
@@ -23,7 +23,7 @@
       "home": "Sudtirol",
       "away": "Catanzaro",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899639",
