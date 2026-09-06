@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-06T19:27:02+02:00",
+  "updatedAt": "2026-09-06T22:59:47+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-06",
@@ -77,7 +77,7 @@
       "home": "Bologna",
       "away": "Sassuolo",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899636",
@@ -86,7 +86,7 @@
       "home": "Cremonese",
       "away": "Padova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874954",
@@ -95,7 +95,7 @@
       "home": "Juventus",
       "away": "Milan",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874943",
