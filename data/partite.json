@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-07T20:57:10+02:00",
+  "updatedAt": "2026-09-07T23:51:37+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-07",
@@ -23,7 +23,7 @@
       "home": "Palermo",
       "away": "Sampdoria",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874962",
@@ -32,7 +32,7 @@
       "home": "Udinese",
       "away": "Lazio",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899625",
