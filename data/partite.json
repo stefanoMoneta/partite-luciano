@@ -1,39 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-07T23:51:37+02:00",
+  "updatedAt": "2026-09-08T02:55:56+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-09-07",
-    "to": "2026-09-13"
+    "from": "2026-09-08",
+    "to": "2026-09-14"
   },
   "matches": [
-    {
-      "id": "espn-401874943",
-      "date": "2026-09-07",
-      "time": "18:30",
-      "home": "Cagliari",
-      "away": "Lecce",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899632",
-      "date": "2026-09-07",
-      "time": "20:30",
-      "home": "Palermo",
-      "away": "Sampdoria",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874962",
-      "date": "2026-09-07",
-      "time": "20:45",
-      "home": "Udinese",
-      "away": "Lazio",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401899625",
       "date": "2026-09-11",
@@ -184,6 +157,33 @@
       "time": "20:45",
       "home": "Sassuolo",
       "away": "Juventus",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874933",
+      "date": "2026-09-14",
+      "time": "18:30",
+      "home": "Como",
+      "away": "Parma",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874950",
+      "date": "2026-09-14",
+      "time": "18:30",
+      "home": "Torino",
+      "away": "Roma",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874966",
+      "date": "2026-09-14",
+      "time": "20:45",
+      "home": "Inter",
+      "away": "Udinese",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
