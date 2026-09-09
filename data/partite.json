@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-09T17:02:51+02:00",
+  "updatedAt": "2026-09-09T20:14:32+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-09",
@@ -116,21 +116,21 @@
       "status": "STATUS_SCHEDULED"
     },
     {
-      "id": "espn-401899629",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "home": "Avellino",
-      "away": "Palermo",
-      "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
-    },
-    {
       "id": "espn-401874936",
       "date": "2026-09-13",
       "time": "15:00",
       "home": "Lecce",
       "away": "Monza",
       "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899629",
+      "date": "2026-09-13",
+      "time": "17:15",
+      "home": "Avellino",
+      "away": "Palermo",
+      "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     },
     {
