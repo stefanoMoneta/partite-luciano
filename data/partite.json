@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-08T23:31:54+02:00",
+  "updatedAt": "2026-09-09T03:03:51+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-09-08",
-    "to": "2026-09-14"
+    "from": "2026-09-09",
+    "to": "2026-09-15"
   },
   "matches": [
     {
@@ -185,6 +185,15 @@
       "home": "Inter",
       "away": "Udinese",
       "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401911654",
+      "date": "2026-09-15",
+      "time": "18:00",
+      "home": "Genoa",
+      "away": "Sudtirol",
+      "competition": "Coppa Italia",
       "status": "STATUS_SCHEDULED"
     },
     {
