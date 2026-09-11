@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-11T16:55:38+02:00",
+  "updatedAt": "2026-09-11T20:05:31+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-11",
@@ -14,7 +14,7 @@
       "home": "Empoli",
       "away": "Arezzo",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401874759",
