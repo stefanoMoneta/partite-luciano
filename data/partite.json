@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-12T13:32:54+02:00",
+  "updatedAt": "2026-09-12T15:56:07+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-12",
@@ -14,7 +14,7 @@
       "home": "Genoa",
       "away": "Frosinone",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899622",
@@ -23,7 +23,7 @@
       "home": "Padova",
       "away": "Ascoli",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401899620",
@@ -32,7 +32,7 @@
       "home": "Sudtirol",
       "away": "Modena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401899624",
@@ -41,7 +41,7 @@
       "home": "Vicenza",
       "away": "Juve Stabia",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401899627",
