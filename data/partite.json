@@ -1,48 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-11T23:30:20+02:00",
+  "updatedAt": "2026-09-12T02:55:41+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-09-11",
-    "to": "2026-09-17"
+    "from": "2026-09-12",
+    "to": "2026-09-18"
   },
   "matches": [
-    {
-      "id": "espn-401899625",
-      "date": "2026-09-11",
-      "time": "19:00",
-      "home": "Empoli",
-      "away": "Arezzo",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874759",
-      "date": "2026-09-11",
-      "time": "20:45",
-      "home": "Venezia",
-      "away": "Fiorentina",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899628",
-      "date": "2026-09-11",
-      "time": "21:00",
-      "home": "Benevento",
-      "away": "Verona",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899621",
-      "date": "2026-09-11",
-      "time": "21:00",
-      "home": "Pisa",
-      "away": "Entella",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401874991",
       "date": "2026-09-12",
@@ -203,6 +167,33 @@
       "home": "Fiorentina",
       "away": "Pisa",
       "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899614",
+      "date": "2026-09-18",
+      "time": "20:30",
+      "home": "Juve Stabia",
+      "away": "Cesena",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874756",
+      "date": "2026-09-18",
+      "time": "20:45",
+      "home": "Monza",
+      "away": "Sassuolo",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899613",
+      "date": "2026-09-20",
+      "time": "17:15",
+      "home": "Mantova",
+      "away": "Pisa",
+      "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     }
   ]
