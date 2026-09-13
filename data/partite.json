@@ -1,84 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-12T23:08:08+02:00",
+  "updatedAt": "2026-09-13T02:38:39+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-09-12",
-    "to": "2026-09-18"
+    "from": "2026-09-13",
+    "to": "2026-09-19"
   },
   "matches": [
-    {
-      "id": "espn-401874991",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "home": "Genoa",
-      "away": "Frosinone",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899622",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "home": "Padova",
-      "away": "Ascoli",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899620",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "home": "Sudtirol",
-      "away": "Modena",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899624",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "home": "Vicenza",
-      "away": "Juve Stabia",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899627",
-      "date": "2026-09-12",
-      "time": "17:15",
-      "home": "Catanzaro",
-      "away": "Carrarese",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874941",
-      "date": "2026-09-12",
-      "time": "18:00",
-      "home": "Lazio",
-      "away": "Milan",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899626",
-      "date": "2026-09-12",
-      "time": "19:30",
-      "home": "Cesena",
-      "away": "Cremonese",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874979",
-      "date": "2026-09-12",
-      "time": "20:45",
-      "home": "Atalanta",
-      "away": "Cagliari",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401874936",
       "date": "2026-09-13",
@@ -184,6 +112,87 @@
       "time": "20:45",
       "home": "Monza",
       "away": "Sassuolo",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874767",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "home": "Bologna",
+      "away": "Torino",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899617",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "home": "Carrarese",
+      "away": "Benevento",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899616",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "home": "Cremonese",
+      "away": "Entella",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899611",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "home": "Palermo",
+      "away": "Padova",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874964",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "home": "Udinese",
+      "away": "Cagliari",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899610",
+      "date": "2026-09-19",
+      "time": "17:15",
+      "home": "Sampdoria",
+      "away": "Catanzaro",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874753",
+      "date": "2026-09-19",
+      "time": "18:00",
+      "home": "Roma",
+      "away": "Inter",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899618",
+      "date": "2026-09-19",
+      "time": "19:30",
+      "home": "Ascoli",
+      "away": "Avellino",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874956",
+      "date": "2026-09-19",
+      "time": "20:45",
+      "home": "Venezia",
+      "away": "Lazio",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
