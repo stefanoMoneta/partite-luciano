@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-13T14:38:36+02:00",
+  "updatedAt": "2026-09-13T16:51:50+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-13",
@@ -14,7 +14,7 @@
       "home": "Lecce",
       "away": "Monza",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899629",
