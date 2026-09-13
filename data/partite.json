@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-13T19:50:30+02:00",
+  "updatedAt": "2026-09-13T23:13:20+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-13",
@@ -41,7 +41,7 @@
       "home": "Napoli",
       "away": "Bologna",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874750",
@@ -50,7 +50,7 @@
       "home": "Sassuolo",
       "away": "Juventus",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874933",
