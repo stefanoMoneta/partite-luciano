@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-14T18:52:04+02:00",
+  "updatedAt": "2026-09-14T21:42:14+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-14",
@@ -14,7 +14,7 @@
       "home": "Como",
       "away": "Parma",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874950",
@@ -23,7 +23,7 @@
       "home": "Torino",
       "away": "Roma",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874966",
@@ -32,7 +32,7 @@
       "home": "Inter",
       "away": "Udinese",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401911654",
