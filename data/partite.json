@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-15T20:39:41+02:00",
+  "updatedAt": "2026-09-15T23:52:56+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-15",
@@ -23,7 +23,7 @@
       "home": "Fiorentina",
       "away": "Pisa",
       "competition": "Coppa Italia",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899614",
