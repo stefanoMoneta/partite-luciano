@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-18T20:00:38+02:00",
+  "updatedAt": "2026-09-18T23:22:45+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-18",
@@ -14,7 +14,7 @@
       "home": "Juve Stabia",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874756",
@@ -23,7 +23,7 @@
       "home": "Monza",
       "away": "Sassuolo",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874767",
