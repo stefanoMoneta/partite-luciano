@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-19T13:51:50+02:00",
+  "updatedAt": "2026-09-19T16:13:29+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-19",
@@ -14,7 +14,7 @@
       "home": "Bologna",
       "away": "Torino",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899617",
@@ -23,7 +23,7 @@
       "home": "Carrarese",
       "away": "Benevento",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899616",
@@ -32,7 +32,7 @@
       "home": "Cremonese",
       "away": "Entella",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_IN_PROGRESS"
     },
     {
       "id": "espn-401899611",
@@ -41,7 +41,7 @@
       "home": "Palermo",
       "away": "Padova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874964",
@@ -50,7 +50,7 @@
       "home": "Udinese",
       "away": "Cagliari",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899610",
