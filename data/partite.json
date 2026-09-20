@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-09-20T14:09:54+02:00",
+  "updatedAt": "2026-09-20T16:36:56+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-09-20",
@@ -14,7 +14,7 @@
       "home": "Fiorentina",
       "away": "Napoli",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899619",
@@ -23,7 +23,7 @@
       "home": "Arezzo",
       "away": "Sudtirol",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874752",
@@ -32,7 +32,7 @@
       "home": "Frosinone",
       "away": "Como",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874801",
@@ -41,7 +41,7 @@
       "home": "Parma",
       "away": "Genoa",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899615",
@@ -50,7 +50,7 @@
       "home": "Verona",
       "away": "Vicenza",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899613",
