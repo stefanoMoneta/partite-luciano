@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-01T22:03:20+02:00",
+  "updatedAt": "2026-10-02T00:57:53+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-01",
-    "to": "2026-10-07"
+    "from": "2026-10-02",
+    "to": "2026-10-08"
   },
   "matches": [
     {
