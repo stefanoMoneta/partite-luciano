@@ -1,12 +1,21 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-02T21:42:44+02:00",
+  "updatedAt": "2026-10-03T00:45:02+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-02",
-    "to": "2026-10-08"
+    "from": "2026-10-03",
+    "to": "2026-10-09"
   },
   "matches": [
+    {
+      "id": "espn-401899608",
+      "date": "2026-10-09",
+      "time": "20:30",
+      "home": "Avellino",
+      "away": "Sampdoria",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
     {
       "id": "espn-401899604",
       "date": "2026-10-10",
