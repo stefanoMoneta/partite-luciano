@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-04T20:29:50+02:00",
+  "updatedAt": "2026-10-05T00:09:06+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-04",
-    "to": "2026-10-10"
+    "from": "2026-10-05",
+    "to": "2026-10-11"
   },
   "matches": [
     {
@@ -94,6 +94,78 @@
       "time": "20:45",
       "home": "Napoli",
       "away": "Frosinone",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874940",
+      "date": "2026-10-11",
+      "time": "12:30",
+      "home": "Como",
+      "away": "Roma",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899606",
+      "date": "2026-10-11",
+      "time": "15:00",
+      "home": "Catanzaro",
+      "away": "Mantova",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874951",
+      "date": "2026-10-11",
+      "time": "15:00",
+      "home": "Lazio",
+      "away": "Monza",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874776",
+      "date": "2026-10-11",
+      "time": "15:00",
+      "home": "Lecce",
+      "away": "Bologna",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899602",
+      "date": "2026-10-11",
+      "time": "17:15",
+      "home": "Padova",
+      "away": "Carrarese",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874789",
+      "date": "2026-10-11",
+      "time": "18:00",
+      "home": "Sassuolo",
+      "away": "Milan",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899603",
+      "date": "2026-10-11",
+      "time": "19:30",
+      "home": "Modena",
+      "away": "Verona",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874764",
+      "date": "2026-10-11",
+      "time": "20:45",
+      "home": "Cagliari",
+      "away": "Juventus",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
