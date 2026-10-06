@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-05T23:46:06+02:00",
+  "updatedAt": "2026-10-06T02:31:47+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-05",
-    "to": "2026-10-11"
+    "from": "2026-10-06",
+    "to": "2026-10-12"
   },
   "matches": [
     {
@@ -166,6 +166,24 @@
       "time": "20:45",
       "home": "Cagliari",
       "away": "Juventus",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401875005",
+      "date": "2026-10-12",
+      "time": "18:30",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874763",
+      "date": "2026-10-12",
+      "time": "20:45",
+      "home": "Torino",
+      "away": "Udinese",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
