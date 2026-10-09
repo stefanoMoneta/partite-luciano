@@ -1,21 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-09T21:57:51+02:00",
+  "updatedAt": "2026-10-10T00:59:20+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-09",
-    "to": "2026-10-15"
+    "from": "2026-10-10",
+    "to": "2026-10-16"
   },
   "matches": [
-    {
-      "id": "espn-401899608",
-      "date": "2026-10-09",
-      "time": "20:30",
-      "home": "Avellino",
-      "away": "Sampdoria",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
     {
       "id": "espn-401899607",
       "date": "2026-10-10",
@@ -184,6 +175,24 @@
       "time": "20:45",
       "home": "Torino",
       "away": "Udinese",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899595",
+      "date": "2026-10-16",
+      "time": "20:30",
+      "home": "Verona",
+      "away": "Catanzaro",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874959",
+      "date": "2026-10-16",
+      "time": "20:45",
+      "home": "Frosinone",
+      "away": "Sassuolo",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
