@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-09T19:22:44+02:00",
+  "updatedAt": "2026-10-09T21:57:51+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-09",
@@ -14,7 +14,7 @@
       "home": "Avellino",
       "away": "Sampdoria",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899607",
