@@ -1,93 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-10T21:05:31+02:00",
+  "updatedAt": "2026-10-11T00:09:11+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-10",
-    "to": "2026-10-16"
+    "from": "2026-10-11",
+    "to": "2026-10-17"
   },
   "matches": [
-    {
-      "id": "espn-401899607",
-      "date": "2026-10-10",
-      "time": "15:00",
-      "home": "Benevento",
-      "away": "Cesena",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899605",
-      "date": "2026-10-10",
-      "time": "15:00",
-      "home": "Empoli",
-      "away": "Palermo",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899600",
-      "date": "2026-10-10",
-      "time": "15:00",
-      "home": "Entella",
-      "away": "Juve Stabia",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874947",
-      "date": "2026-10-10",
-      "time": "15:00",
-      "home": "Genoa",
-      "away": "Fiorentina",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899601",
-      "date": "2026-10-10",
-      "time": "15:00",
-      "home": "Sudtirol",
-      "away": "Ascoli",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899604",
-      "date": "2026-10-10",
-      "time": "17:15",
-      "home": "Vicenza",
-      "away": "Pisa",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401875021",
-      "date": "2026-10-10",
-      "time": "18:00",
-      "home": "Inter",
-      "away": "Parma",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899609",
-      "date": "2026-10-10",
-      "time": "19:30",
-      "home": "Arezzo",
-      "away": "Cremonese",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
-    {
-      "id": "espn-401874754",
-      "date": "2026-10-10",
-      "time": "20:45",
-      "home": "Napoli",
-      "away": "Frosinone",
-      "competition": "Serie A",
-      "status": "STATUS_IN_PROGRESS"
-    },
     {
       "id": "espn-401874940",
       "date": "2026-10-11",
@@ -197,11 +116,92 @@
       "status": "STATUS_SCHEDULED"
     },
     {
+      "id": "espn-401899599",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "home": "Ascoli",
+      "away": "Empoli",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899598",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "home": "Benevento",
+      "away": "Vicenza",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899597",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "home": "Carrarese",
+      "away": "Modena",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899592",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "home": "Padova",
+      "away": "Entella",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874760",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "home": "Venezia",
+      "away": "Napoli",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899593",
+      "date": "2026-10-17",
+      "time": "17:15",
+      "home": "Mantova",
+      "away": "Palermo",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874953",
+      "date": "2026-10-17",
+      "time": "18:00",
+      "home": "Bologna",
+      "away": "Inter",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
       "id": "espn-401899591",
       "date": "2026-10-17",
       "time": "19:30",
       "home": "Pisa",
       "away": "Cremonese",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874935",
+      "date": "2026-10-17",
+      "time": "20:45",
+      "home": "Roma",
+      "away": "Genoa",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899584",
+      "date": "2026-10-25",
+      "time": "17:15",
+      "home": "Verona",
+      "away": "Pisa",
       "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     }
