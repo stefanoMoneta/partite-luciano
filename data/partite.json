@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-10T15:28:28+02:00",
+  "updatedAt": "2026-10-10T18:08:38+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-10",
@@ -14,7 +14,7 @@
       "home": "Benevento",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899605",
@@ -23,7 +23,7 @@
       "home": "Empoli",
       "away": "Palermo",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899600",
@@ -32,7 +32,7 @@
       "home": "Entella",
       "away": "Juve Stabia",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874947",
@@ -41,7 +41,7 @@
       "home": "Genoa",
       "away": "Fiorentina",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899601",
@@ -50,7 +50,7 @@
       "home": "Sudtirol",
       "away": "Ascoli",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899604",
@@ -59,7 +59,7 @@
       "home": "Vicenza",
       "away": "Pisa",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401875021",
@@ -68,7 +68,7 @@
       "home": "Inter",
       "away": "Parma",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899609",
