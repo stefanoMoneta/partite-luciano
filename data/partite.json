@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-11T03:34:45+02:00",
+  "updatedAt": "2026-10-11T15:52:52+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-11",
@@ -14,7 +14,7 @@
       "home": "Como",
       "away": "Roma",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899606",
@@ -23,7 +23,7 @@
       "home": "Catanzaro",
       "away": "Mantova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401874951",
@@ -32,7 +32,7 @@
       "home": "Lazio",
       "away": "Monza",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401874776",
@@ -41,7 +41,7 @@
       "home": "Lecce",
       "away": "Bologna",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401899602",
