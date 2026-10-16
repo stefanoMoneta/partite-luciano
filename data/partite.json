@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-16T20:33:58+02:00",
+  "updatedAt": "2026-10-16T23:52:08+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-16",
@@ -14,7 +14,7 @@
       "home": "Verona",
       "away": "Catanzaro",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874959",
@@ -23,7 +23,7 @@
       "home": "Frosinone",
       "away": "Sassuolo",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899599",
