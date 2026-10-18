@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-18T13:59:32+02:00",
+  "updatedAt": "2026-10-18T16:22:28+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-18",
@@ -14,7 +14,7 @@
       "home": "Udinese",
       "away": "Lecce",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874774",
@@ -23,7 +23,7 @@
       "home": "Fiorentina",
       "away": "Como",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899594",
@@ -32,7 +32,7 @@
       "home": "Juve Stabia",
       "away": "Sudtirol",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899596",
