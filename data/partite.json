@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-19T16:30:09+02:00",
+  "updatedAt": "2026-10-19T19:22:37+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-19",
@@ -14,7 +14,7 @@
       "home": "Monza",
       "away": "Cagliari",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401874784",
