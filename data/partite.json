@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-21T21:04:22+02:00",
+  "updatedAt": "2026-10-22T00:03:09+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-21",
-    "to": "2026-10-27"
+    "from": "2026-10-22",
+    "to": "2026-10-28"
   },
   "matches": [
     {
@@ -278,12 +278,75 @@
       "status": "STATUS_SCHEDULED"
     },
     {
+      "id": "espn-401874993",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "home": "Milan",
+      "away": "Bologna",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874965",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "home": "Parma",
+      "away": "Udinese",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874773",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "home": "Venezia",
+      "away": "Inter",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
       "id": "espn-401899571",
       "date": "2026-10-28",
       "time": "19:00",
       "home": "Pisa",
       "away": "Palermo",
       "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899577",
+      "date": "2026-10-28",
+      "time": "20:00",
+      "home": "Carrarese",
+      "away": "Arezzo",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899575",
+      "date": "2026-10-28",
+      "time": "20:00",
+      "home": "Juve Stabia",
+      "away": "Verona",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874988",
+      "date": "2026-10-28",
+      "time": "20:45",
+      "home": "Genoa",
+      "away": "Juventus",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874799",
+      "date": "2026-10-28",
+      "time": "20:45",
+      "home": "Monza",
+      "away": "Napoli",
+      "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     }
   ]
