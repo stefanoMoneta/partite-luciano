@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-23T20:49:36+02:00",
+  "updatedAt": "2026-10-23T23:47:34+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-23",
@@ -14,7 +14,7 @@
       "home": "Empoli",
       "away": "Vicenza",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874957",
@@ -23,7 +23,7 @@
       "home": "Torino",
       "away": "Monza",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899588",
