@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-24T13:54:42+02:00",
+  "updatedAt": "2026-10-24T16:21:52+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-24",
@@ -14,7 +14,7 @@
       "home": "Avellino",
       "away": "Padova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874958",
@@ -23,7 +23,7 @@
       "home": "Cagliari",
       "away": "Bologna",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874961",
@@ -32,7 +32,7 @@
       "home": "Como",
       "away": "Sassuolo",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899586",
@@ -41,7 +41,7 @@
       "home": "Cremonese",
       "away": "Juve Stabia",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899580",
@@ -50,7 +50,7 @@
       "home": "Entella",
       "away": "Mantova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899583",
@@ -59,7 +59,7 @@
       "home": "Modena",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899581",
@@ -68,7 +68,7 @@
       "home": "Sudtirol",
       "away": "Sampdoria",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899587",
