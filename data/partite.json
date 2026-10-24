@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-24T19:45:02+02:00",
+  "updatedAt": "2026-10-24T23:22:55+02:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-24",
@@ -86,7 +86,7 @@
       "home": "Napoli",
       "away": "Roma",
       "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899589",
@@ -95,7 +95,7 @@
       "home": "Arezzo",
       "away": "Benevento",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874955",
@@ -104,7 +104,7 @@
       "home": "Lazio",
       "away": "Parma",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401875036",
