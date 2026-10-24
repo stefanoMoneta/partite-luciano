@@ -1,30 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-23T23:47:34+02:00",
+  "updatedAt": "2026-10-24T03:23:41+02:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-23",
-    "to": "2026-10-29"
+    "from": "2026-10-24",
+    "to": "2026-10-30"
   },
   "matches": [
-    {
-      "id": "espn-401899585",
-      "date": "2026-10-23",
-      "time": "20:30",
-      "home": "Empoli",
-      "away": "Vicenza",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874957",
-      "date": "2026-10-23",
-      "time": "20:45",
-      "home": "Torino",
-      "away": "Monza",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401899588",
       "date": "2026-10-24",
