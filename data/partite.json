@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-25T02:52:18+02:00",
+  "updatedAt": "2026-10-25T13:26:15+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-25",
@@ -14,7 +14,7 @@
       "home": "Inter",
       "away": "Fiorentina",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401874972",
