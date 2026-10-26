@@ -1,75 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-25T22:20:06+01:00",
+  "updatedAt": "2026-10-26T01:59:55+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-25",
-    "to": "2026-10-31"
+    "from": "2026-10-26",
+    "to": "2026-11-01"
   },
   "matches": [
-    {
-      "id": "espn-401875036",
-      "date": "2026-10-25",
-      "time": "12:30",
-      "home": "Inter",
-      "away": "Fiorentina",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874972",
-      "date": "2026-10-25",
-      "time": "15:00",
-      "home": "Atalanta",
-      "away": "Frosinone",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874952",
-      "date": "2026-10-25",
-      "time": "15:00",
-      "home": "Genoa",
-      "away": "Venezia",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899582",
-      "date": "2026-10-25",
-      "time": "15:00",
-      "home": "Palermo",
-      "away": "Carrarese",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899584",
-      "date": "2026-10-25",
-      "time": "17:15",
-      "home": "Verona",
-      "away": "Pisa",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874772",
-      "date": "2026-10-25",
-      "time": "18:00",
-      "home": "Lecce",
-      "away": "Juventus",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874779",
-      "date": "2026-10-25",
-      "time": "20:45",
-      "home": "Udinese",
-      "away": "Milan",
-      "competition": "Serie A",
-      "status": "STATUS_SECOND_HALF"
-    },
     {
       "id": "espn-401874980",
       "date": "2026-10-27",
@@ -319,6 +256,96 @@
       "time": "20:45",
       "home": "Milan",
       "away": "Inter",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401875002",
+      "date": "2026-11-01",
+      "time": "12:30",
+      "home": "Como",
+      "away": "Venezia",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899569",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "home": "Arezzo",
+      "away": "Ascoli",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899568",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "home": "Avellino",
+      "away": "Pisa",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899565",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "home": "Empoli",
+      "away": "Juve Stabia",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874782",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "home": "Frosinone",
+      "away": "Torino",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874983",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "home": "Lazio",
+      "away": "Cagliari",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899564",
+      "date": "2026-11-01",
+      "time": "17:15",
+      "home": "Verona",
+      "away": "Carrarese",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874968",
+      "date": "2026-11-01",
+      "time": "18:00",
+      "home": "Lecce",
+      "away": "Genoa",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899562",
+      "date": "2026-11-01",
+      "time": "19:30",
+      "home": "Palermo",
+      "away": "Vicenza",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874949",
+      "date": "2026-11-01",
+      "time": "20:45",
+      "home": "Juventus",
+      "away": "Napoli",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     }
