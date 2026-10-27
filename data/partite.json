@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-27T17:17:06+01:00",
+  "updatedAt": "2026-10-27T20:46:13+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-27",
@@ -14,7 +14,7 @@
       "home": "Sassuolo",
       "away": "Lazio",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899578",
@@ -23,7 +23,7 @@
       "home": "Benevento",
       "away": "Catanzaro",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_IN_PROGRESS"
     },
     {
       "id": "espn-401899579",
@@ -32,7 +32,7 @@
       "home": "Ascoli",
       "away": "Sampdoria",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899576",
@@ -41,7 +41,7 @@
       "home": "Cesena",
       "away": "Empoli",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899570",
@@ -50,7 +50,7 @@
       "home": "Entella",
       "away": "Avellino",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899573",
@@ -59,7 +59,7 @@
       "home": "Mantova",
       "away": "Cremonese",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_IN_PROGRESS"
     },
     {
       "id": "espn-401899572",
@@ -68,7 +68,7 @@
       "home": "Padova",
       "away": "Sudtirol",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899574",
@@ -77,7 +77,7 @@
       "home": "Vicenza",
       "away": "Modena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874780",
@@ -86,7 +86,7 @@
       "home": "Roma",
       "away": "Cagliari",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874786",
