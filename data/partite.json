@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-30T23:44:49+01:00",
+  "updatedAt": "2026-10-31T03:02:42+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-10-30",
-    "to": "2026-11-05"
+    "from": "2026-10-31",
+    "to": "2026-11-06"
   },
   "matches": [
     {
@@ -184,6 +184,24 @@
       "time": "20:45",
       "home": "Atalanta",
       "away": "Parma",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899559",
+      "date": "2026-11-06",
+      "time": "20:30",
+      "home": "Ascoli",
+      "away": "Palermo",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874815",
+      "date": "2026-11-06",
+      "time": "20:45",
+      "home": "Venezia",
+      "away": "Udinese",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
