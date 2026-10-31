@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-31T19:59:33+01:00",
+  "updatedAt": "2026-10-31T23:07:13+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-31",
@@ -68,7 +68,7 @@
       "home": "Sampdoria",
       "away": "Entella",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874795",
@@ -77,7 +77,7 @@
       "home": "Milan",
       "away": "Inter",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401875002",
