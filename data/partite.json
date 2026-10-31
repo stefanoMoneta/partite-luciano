@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-10-31T14:28:46+01:00",
+  "updatedAt": "2026-10-31T16:59:18+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-10-31",
@@ -14,7 +14,7 @@
       "home": "Bologna",
       "away": "Monza",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899566",
@@ -23,7 +23,7 @@
       "home": "Cremonese",
       "away": "Benevento",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899563",
@@ -32,7 +32,7 @@
       "home": "Modena",
       "away": "Mantova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899560",
@@ -41,7 +41,7 @@
       "home": "Sudtirol",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899567",
