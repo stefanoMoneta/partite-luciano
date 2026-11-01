@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-01T02:54:18+01:00",
+  "updatedAt": "2026-11-01T15:10:19+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-01",
@@ -14,7 +14,7 @@
       "home": "Como",
       "away": "Venezia",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899569",
@@ -23,7 +23,7 @@
       "home": "Arezzo",
       "away": "Ascoli",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899568",
@@ -32,7 +32,7 @@
       "home": "Avellino",
       "away": "Pisa",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899565",
@@ -41,7 +41,7 @@
       "home": "Empoli",
       "away": "Juve Stabia",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874782",
@@ -50,7 +50,7 @@
       "home": "Frosinone",
       "away": "Torino",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874983",
@@ -59,7 +59,7 @@
       "home": "Lazio",
       "away": "Cagliari",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899564",
