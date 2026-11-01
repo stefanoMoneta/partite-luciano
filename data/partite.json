@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-01T20:18:59+01:00",
+  "updatedAt": "2026-11-01T23:33:07+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-01",
@@ -86,7 +86,7 @@
       "home": "Palermo",
       "away": "Vicenza",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874949",
@@ -95,7 +95,7 @@
       "home": "Juventus",
       "away": "Napoli",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874963",
