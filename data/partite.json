@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-07T14:49:47+01:00",
+  "updatedAt": "2026-11-07T17:46:12+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-07",
@@ -14,7 +14,7 @@
       "home": "Cagliari",
       "away": "Frosinone",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899556",
@@ -23,7 +23,7 @@
       "home": "Cesena",
       "away": "Catanzaro",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899555",
@@ -32,7 +32,7 @@
       "home": "Juve Stabia",
       "away": "Arezzo",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899552",
@@ -41,7 +41,7 @@
       "home": "Padova",
       "away": "Empoli",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899551",
@@ -50,7 +50,7 @@
       "home": "Pisa",
       "away": "Sudtirol",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874811",
@@ -59,7 +59,7 @@
       "home": "Torino",
       "away": "Lecce",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899553",
@@ -68,7 +68,7 @@
       "home": "Mantova",
       "away": "Verona",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874974",
