@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-08T15:10:53+01:00",
+  "updatedAt": "2026-11-08T17:57:03+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-08",
@@ -23,7 +23,7 @@
       "home": "Entella",
       "away": "Modena",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401875018",
@@ -32,7 +32,7 @@
       "home": "Genoa",
       "away": "Milan",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874800",
@@ -41,7 +41,7 @@
       "home": "Monza",
       "away": "Atalanta",
       "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899557",
@@ -50,7 +50,7 @@
       "home": "Carrarese",
       "away": "Sampdoria",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874808",
