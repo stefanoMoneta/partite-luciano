@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-08T17:57:03+01:00",
+  "updatedAt": "2026-11-08T20:16:25+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-08",
@@ -50,7 +50,7 @@
       "home": "Carrarese",
       "away": "Sampdoria",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874808",
@@ -59,7 +59,7 @@
       "home": "Inter",
       "away": "Como",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899554",
@@ -68,7 +68,7 @@
       "home": "Vicenza",
       "away": "Cremonese",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401875003",
