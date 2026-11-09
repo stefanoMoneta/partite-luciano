@@ -1,84 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-08T23:37:20+01:00",
+  "updatedAt": "2026-11-09T03:24:17+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-08",
-    "to": "2026-11-14"
+    "from": "2026-11-09",
+    "to": "2026-11-15"
   },
   "matches": [
-    {
-      "id": "espn-401874810",
-      "date": "2026-11-08",
-      "time": "12:30",
-      "home": "Napoli",
-      "away": "Lazio",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899550",
-      "date": "2026-11-08",
-      "time": "15:00",
-      "home": "Entella",
-      "away": "Modena",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401875018",
-      "date": "2026-11-08",
-      "time": "15:00",
-      "home": "Genoa",
-      "away": "Milan",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874800",
-      "date": "2026-11-08",
-      "time": "15:00",
-      "home": "Monza",
-      "away": "Atalanta",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899557",
-      "date": "2026-11-08",
-      "time": "17:15",
-      "home": "Carrarese",
-      "away": "Sampdoria",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401874808",
-      "date": "2026-11-08",
-      "time": "18:00",
-      "home": "Inter",
-      "away": "Como",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899554",
-      "date": "2026-11-08",
-      "time": "19:30",
-      "home": "Vicenza",
-      "away": "Cremonese",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401875003",
-      "date": "2026-11-08",
-      "time": "20:45",
-      "home": "Fiorentina",
-      "away": "Juventus",
-      "competition": "Serie A",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401899544",
       "date": "2026-11-21",
