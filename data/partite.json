@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-16T21:51:21+01:00",
+  "updatedAt": "2026-11-17T00:36:41+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-16",
-    "to": "2026-11-22"
+    "from": "2026-11-17",
+    "to": "2026-11-23"
   },
   "matches": [
     {
@@ -175,6 +175,15 @@
       "time": "20:45",
       "home": "Atalanta",
       "away": "Inter",
+      "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401875009",
+      "date": "2026-11-23",
+      "time": "20:45",
+      "home": "Monza",
+      "away": "Fiorentina",
       "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     },
