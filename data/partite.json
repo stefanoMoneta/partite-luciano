@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-17T23:44:39+01:00",
+  "updatedAt": "2026-11-18T02:27:50+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-17",
-    "to": "2026-11-23"
+    "from": "2026-11-18",
+    "to": "2026-11-24"
   },
   "matches": [
     {
@@ -185,6 +185,60 @@
       "home": "Monza",
       "away": "Fiorentina",
       "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899536",
+      "date": "2026-11-24",
+      "time": "19:00",
+      "home": "Juve Stabia",
+      "away": "Catanzaro",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899539",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "home": "Benevento",
+      "away": "Empoli",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899538",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "home": "Cesena",
+      "away": "Ascoli",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899530",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "home": "Entella",
+      "away": "Verona",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899532",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "home": "Palermo",
+      "away": "Sudtirol",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899535",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "home": "Vicenza",
+      "away": "Carrarese",
+      "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     },
     {
