@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-18T23:26:57+01:00",
+  "updatedAt": "2026-11-19T01:54:26+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-18",
-    "to": "2026-11-24"
+    "from": "2026-11-19",
+    "to": "2026-11-25"
   },
   "matches": [
     {
@@ -238,6 +238,33 @@
       "time": "20:00",
       "home": "Vicenza",
       "away": "Carrarese",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899537",
+      "date": "2026-11-25",
+      "time": "19:00",
+      "home": "Cremonese",
+      "away": "Avellino",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899534",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "home": "Mantova",
+      "away": "Arezzo",
+      "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899533",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "home": "Padova",
+      "away": "Sampdoria",
       "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     },
