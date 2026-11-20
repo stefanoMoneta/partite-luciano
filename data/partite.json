@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-20T19:59:53+01:00",
+  "updatedAt": "2026-11-20T23:04:53+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-20",
@@ -14,7 +14,7 @@
       "home": "Verona",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899548",
