@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-21T18:54:41+01:00",
+  "updatedAt": "2026-11-21T21:43:28+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-21",
@@ -77,7 +77,7 @@
       "home": "Catanzaro",
       "away": "Palermo",
       "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874967",
@@ -86,7 +86,7 @@
       "home": "Parma",
       "away": "Roma",
       "competition": "Serie A",
-      "status": "STATUS_HALFTIME"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899544",
@@ -95,7 +95,7 @@
       "home": "Empoli",
       "away": "Pisa",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401875067",
@@ -104,7 +104,7 @@
       "home": "Napoli",
       "away": "Torino",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_HALFTIME"
     },
     {
       "id": "espn-401875008",
