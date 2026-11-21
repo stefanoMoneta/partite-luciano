@@ -1,21 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-20T23:04:53+01:00",
+  "updatedAt": "2026-11-21T01:33:12+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-20",
-    "to": "2026-11-26"
+    "from": "2026-11-21",
+    "to": "2026-11-27"
   },
   "matches": [
-    {
-      "id": "espn-401899543",
-      "date": "2026-11-20",
-      "time": "20:30",
-      "home": "Verona",
-      "away": "Cesena",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401899548",
       "date": "2026-11-21",
@@ -275,6 +266,15 @@
       "home": "Pisa",
       "away": "Modena",
       "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401875004",
+      "date": "2026-11-27",
+      "time": "20:45",
+      "home": "Venezia",
+      "away": "Bologna",
+      "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     }
   ]
