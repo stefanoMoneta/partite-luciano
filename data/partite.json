@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-22T03:50:34+01:00",
+  "updatedAt": "2026-11-22T16:09:36+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-22",
@@ -14,7 +14,7 @@
       "home": "Juventus",
       "away": "Venezia",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899547",
@@ -23,7 +23,7 @@
       "home": "Avellino",
       "away": "Mantova",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401875047",
@@ -32,7 +32,7 @@
       "home": "Bologna",
       "away": "Udinese",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401874960",
@@ -41,7 +41,7 @@
       "home": "Sassuolo",
       "away": "Genoa",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899549",
