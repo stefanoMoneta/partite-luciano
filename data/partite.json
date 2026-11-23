@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-23T20:06:40+01:00",
+  "updatedAt": "2026-11-23T23:29:23+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-23",
@@ -14,7 +14,7 @@
       "home": "Monza",
       "away": "Fiorentina",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899536",
