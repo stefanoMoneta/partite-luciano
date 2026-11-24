@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-24T19:45:30+01:00",
+  "updatedAt": "2026-11-24T22:01:38+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-24",
@@ -14,7 +14,7 @@
       "home": "Juve Stabia",
       "away": "Catanzaro",
       "competition": "Serie B",
-      "status": "STATUS_FIRST_HALF"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899539",
@@ -23,7 +23,7 @@
       "home": "Benevento",
       "away": "Empoli",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899538",
@@ -32,7 +32,7 @@
       "home": "Cesena",
       "away": "Ascoli",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899530",
@@ -41,7 +41,7 @@
       "home": "Entella",
       "away": "Verona",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899532",
@@ -50,7 +50,7 @@
       "home": "Palermo",
       "away": "Sudtirol",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899535",
@@ -59,7 +59,7 @@
       "home": "Vicenza",
       "away": "Carrarese",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899537",
