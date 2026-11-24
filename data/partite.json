@@ -1,66 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-24T22:01:38+01:00",
+  "updatedAt": "2026-11-25T00:42:27+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-24",
-    "to": "2026-11-30"
+    "from": "2026-11-25",
+    "to": "2026-12-01"
   },
   "matches": [
-    {
-      "id": "espn-401899536",
-      "date": "2026-11-24",
-      "time": "19:00",
-      "home": "Juve Stabia",
-      "away": "Catanzaro",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899539",
-      "date": "2026-11-24",
-      "time": "20:00",
-      "home": "Benevento",
-      "away": "Empoli",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899538",
-      "date": "2026-11-24",
-      "time": "20:00",
-      "home": "Cesena",
-      "away": "Ascoli",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899530",
-      "date": "2026-11-24",
-      "time": "20:00",
-      "home": "Entella",
-      "away": "Verona",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899532",
-      "date": "2026-11-24",
-      "time": "20:00",
-      "home": "Palermo",
-      "away": "Sudtirol",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899535",
-      "date": "2026-11-24",
-      "time": "20:00",
-      "home": "Vicenza",
-      "away": "Carrarese",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
     {
       "id": "espn-401899537",
       "date": "2026-11-25",
@@ -275,6 +221,15 @@
       "home": "Cagliari",
       "away": "Milan",
       "competition": "Serie A",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401912257",
+      "date": "2026-12-01",
+      "time": "21:00",
+      "home": "Inter",
+      "away": "Genoa",
+      "competition": "Coppa Italia",
       "status": "STATUS_SCHEDULED"
     }
   ]
