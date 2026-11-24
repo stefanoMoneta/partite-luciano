@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-24T07:47:37+01:00",
+  "updatedAt": "2026-11-24T19:45:30+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-24",
@@ -14,7 +14,7 @@
       "home": "Juve Stabia",
       "away": "Catanzaro",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899539",
