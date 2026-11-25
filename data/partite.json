@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-25T18:52:50+01:00",
+  "updatedAt": "2026-11-25T21:24:33+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-25",
@@ -14,7 +14,7 @@
       "home": "Cremonese",
       "away": "Avellino",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401899534",
@@ -23,7 +23,7 @@
       "home": "Mantova",
       "away": "Arezzo",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899533",
@@ -32,7 +32,7 @@
       "home": "Padova",
       "away": "Sampdoria",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899531",
@@ -41,7 +41,7 @@
       "home": "Pisa",
       "away": "Modena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401875004",
