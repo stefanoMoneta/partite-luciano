@@ -1,48 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-25T21:24:33+01:00",
+  "updatedAt": "2026-11-26T00:26:36+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-25",
-    "to": "2026-12-01"
+    "from": "2026-11-26",
+    "to": "2026-12-02"
   },
   "matches": [
-    {
-      "id": "espn-401899537",
-      "date": "2026-11-25",
-      "time": "19:00",
-      "home": "Cremonese",
-      "away": "Avellino",
-      "competition": "Serie B",
-      "status": "STATUS_FULL_TIME"
-    },
-    {
-      "id": "espn-401899534",
-      "date": "2026-11-25",
-      "time": "20:00",
-      "home": "Mantova",
-      "away": "Arezzo",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
-    {
-      "id": "espn-401899533",
-      "date": "2026-11-25",
-      "time": "20:00",
-      "home": "Padova",
-      "away": "Sampdoria",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
-    {
-      "id": "espn-401899531",
-      "date": "2026-11-25",
-      "time": "20:00",
-      "home": "Pisa",
-      "away": "Modena",
-      "competition": "Serie B",
-      "status": "STATUS_SECOND_HALF"
-    },
     {
       "id": "espn-401875004",
       "date": "2026-11-27",
@@ -230,6 +194,24 @@
       "home": "Inter",
       "away": "Genoa",
       "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401912495",
+      "date": "2026-12-02",
+      "time": "21:00",
+      "home": "Como",
+      "away": "Cremonese",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401899511",
+      "date": "2026-12-04",
+      "time": "20:30",
+      "home": "Pisa",
+      "away": "Sampdoria",
+      "competition": "Serie B",
       "status": "STATUS_SCHEDULED"
     }
   ]
