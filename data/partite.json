@@ -1,10 +1,10 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-26T21:01:26+01:00",
+  "updatedAt": "2026-11-27T00:25:56+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-26",
-    "to": "2026-12-02"
+    "from": "2026-11-27",
+    "to": "2026-12-03"
   },
   "matches": [
     {
@@ -202,6 +202,15 @@
       "time": "21:00",
       "home": "Como",
       "away": "Cremonese",
+      "competition": "Coppa Italia",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401912261",
+      "date": "2026-12-03",
+      "time": "21:00",
+      "home": "Juventus",
+      "away": "Sassuolo",
       "competition": "Coppa Italia",
       "status": "STATUS_SCHEDULED"
     },
