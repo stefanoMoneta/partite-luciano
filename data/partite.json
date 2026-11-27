@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-27T18:20:25+01:00",
+  "updatedAt": "2026-11-27T20:50:22+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-27",
@@ -14,7 +14,7 @@
       "home": "Venezia",
       "away": "Bologna",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401899528",
