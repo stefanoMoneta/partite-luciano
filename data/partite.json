@@ -1,21 +1,12 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-27T20:50:22+01:00",
+  "updatedAt": "2026-11-28T00:09:05+01:00",
   "source": "ESPN",
   "window": {
-    "from": "2026-11-27",
-    "to": "2026-12-03"
+    "from": "2026-11-28",
+    "to": "2026-12-04"
   },
   "matches": [
-    {
-      "id": "espn-401875004",
-      "date": "2026-11-27",
-      "time": "20:45",
-      "home": "Venezia",
-      "away": "Bologna",
-      "competition": "Serie A",
-      "status": "STATUS_FIRST_HALF"
-    },
     {
       "id": "espn-401899528",
       "date": "2026-11-28",
@@ -221,6 +212,15 @@
       "home": "Pisa",
       "away": "Sampdoria",
       "competition": "Serie B",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "id": "espn-401874984",
+      "date": "2026-12-04",
+      "time": "20:45",
+      "home": "Bologna",
+      "away": "Roma",
+      "competition": "Serie A",
       "status": "STATUS_SCHEDULED"
     }
   ]
