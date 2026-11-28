@@ -1,6 +1,6 @@
 {
   "exampleData": false,
-  "updatedAt": "2026-11-28T17:03:24+01:00",
+  "updatedAt": "2026-11-28T19:43:13+01:00",
   "source": "ESPN",
   "window": {
     "from": "2026-11-28",
@@ -50,7 +50,7 @@
       "home": "Vicenza",
       "away": "Cesena",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FULL_TIME"
     },
     {
       "id": "espn-401874826",
@@ -59,7 +59,7 @@
       "home": "Torino",
       "away": "Lazio",
       "competition": "Serie A",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_SECOND_HALF"
     },
     {
       "id": "espn-401899522",
@@ -68,7 +68,7 @@
       "home": "Palermo",
       "away": "Benevento",
       "competition": "Serie B",
-      "status": "STATUS_SCHEDULED"
+      "status": "STATUS_FIRST_HALF"
     },
     {
       "id": "espn-401874977",
